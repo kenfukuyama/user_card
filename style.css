@@ -1,0 +1,85 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#profileCard {
+    background-color: white;
+    /* height: 300px; */
+    /* TODO this needs to be adjusted */
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    border: 2px solid grey;
+}
+
+
+#descript-header img {
+    height: 20px;
+}
+
+#descript-header h3 {
+    display: inline;
+}
+
+#location {
+    color: white;
+    padding: 7px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#cover {
+    background-color: #17a2b8;
+    height: 60px;
+}
+
+#descript-header {
+    background-color: red;
+    padding: 10px 25px 20px;
+}
+
+
+.editProfile {
+    color: white;
+    padding: 7px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    
+    border: 2px solid black;
+
+}
+
+/* To do here!!! */
+#descript-header img
+.gear {
+    width: 10px;
+    
+
+}
+
+.userPic {
+    position: relative;
+    top: 10px;
+    left: 30px;
+
+    width: 80px;
+}
+
+#descript-header .gear {
+    width: 15px;
+    height: 15px;
+}
+
+#education {
+    background-color:lightslategrey;
+    height: 500px;
+}
