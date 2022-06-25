@@ -26,7 +26,6 @@
 }
 
 #location {
-    color: white;
     padding: 7px 0;
     display: flex;
     align-items: center;
@@ -40,8 +39,7 @@
 }
 
 #descript-header {
-    background-color: red;
-    padding: 10px 25px 20px;
+    padding: 50px 25px 20px;
 }
 
 
@@ -53,8 +51,6 @@
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
-    
-    border: 2px solid black;
 
 }
 
@@ -67,9 +63,12 @@
 }
 
 .userPic {
+    border: 5px solid white;
+    border-radius: 50%;
+
     position: relative;
-    top: 10px;
-    left: 30px;
+    top: 15px;
+    left: 20px;
 
     width: 80px;
 }
